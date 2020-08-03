@@ -1,0 +1,66 @@
+.suggest-img{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.profile-img{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.profile-bio, .suggest-follow{
+  font-weight: lighter;
+}
+#title{
+  color: grey;
+  font-size: medium;
+}
+.profile, .suggestion-profile{
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+.suggest-title{
+  padding-top: 10px;
+  display: flex;
+  position: relative;
+}
+#titleBtn{
+  position: absolute;
+  right: 0;
+}
+#follow{
+  position: absolute;
+  right: 0;
+  top: 5px
+}
+.suggest-info, .profile-info{
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.suggest-name, .profile-name{
+  flex: 100%;
+  text-align: left;
+}
+#follow{
+  color: #1DA1F2;
+}
+.suggest-follow{
+  color: grey;
+  font-size: 12px;
+}
+.insta-links{
+  margin-top: 20px;
+}
+.greyLinks, .trademark{
+  color: lightgray;
+  font-size: small;
+  font-weight: lighter;
+}
+.wrapper{
+  height: 715px;
+  width: 293px;
+  padding: 10px;
+  margin: 10px;
+}
